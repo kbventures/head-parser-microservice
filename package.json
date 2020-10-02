@@ -1,0 +1,29 @@
+{
+  "name": "head-parser-microservice",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp Challenge -  APIs and Microservices Projects - Request Header Parser Microservice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "devstart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kbventures/head-parser-microservice.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kbventures/head-parser-microservice/issues"
+  },
+  "homepage": "https://github.com/kbventures/head-parser-microservice#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
